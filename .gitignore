@@ -1,0 +1,8 @@
+# Jetbrains
+.idea/
+
+# artifacts directory
+bin/
+
+# dotenv environment variable files
+.env

@@ -1,2 +1,6 @@
-# fiber-template
-Go Fiber Web Framework Template repo
+# Go Fiber Template
+
+Checklist
+
+- Change the module name in `go.mod` 
+- Change the site title in `views/index.tmpl`

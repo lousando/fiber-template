@@ -1,0 +1,11 @@
+# Jetbrains
+.idea/
+
+# VS Code
+.vscode
+
+# artifacts directory
+bin/
+
+# dotenv environment variable files
+.env

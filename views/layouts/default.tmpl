@@ -1,0 +1,19 @@
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiber Template</title>
+    {{/* 3rd Party styles */}}
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css">
+    {{/* 3rd Party JS */}}
+    <script src="https://unpkg.com/htmx.org@1.9.9/dist/htmx.min.js" integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX" crossorigin="anonymous"></script>
+</head>
+<body hx-boost="true">
+    {{/* the current page content */}}
+    <div class="container">
+        <div class="m-3">
+            {{ embed }}
+        </div>
+    </div>
+</body>
+</html>
