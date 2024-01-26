@@ -5,7 +5,7 @@ Comes pre-loaded with [Bulma](https://bulma.io/) and [HTMX](https://htmx.org/)
 Checklist 📋
 
 - Change the module name in `go.mod` 
-- Change the site title in `views/index.tmpl`
+- Change the site title in `views/layouts/default.tmpl`
 
 
 ## Getting Started 🚀
